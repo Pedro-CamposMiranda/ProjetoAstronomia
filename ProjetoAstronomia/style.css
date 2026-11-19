@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #0b0f19;
+  color: #e6edf3;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.topo {
+  background-color: #131a2e;
+  border-bottom: 1px solid #243052;
+  padding: 28px 0;
+}
+
+.topo h1 {
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+.topo p {
+  color: #9fb0cc;
+  margin-bottom: 16px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: #7cc4ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 32px 20px;
+}
+
+.secao {
+  margin-bottom: 44px;
+}
+
+.secao h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.secao p {
+  color: #cbd5e1;
+  margin-bottom: 18px;
+}
+
+.card-imagem {
+  background-color: #131a2e;
+  border: 1px solid #243052;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.card-imagem img {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card-imagem figcaption {
+  margin-top: 10px;
+  font-size: 0.92rem;
+  color: #9fb0cc;
+}
+
+.rodape {
+  background-color: #131a2e;
+  border-top: 1px solid #243052;
+  padding: 20px 0;
+  text-align: center;
+  color: #9fb0cc;
+  font-size: 0.9rem;
+}
