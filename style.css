@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -46,7 +50,8 @@ body {
   font-weight: bold;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu a:focus {
   text-decoration: underline;
 }
 
@@ -79,6 +84,7 @@ main {
 .card-imagem img {
   display: block;
   width: 100%;
+  height: auto;
   max-height: 420px;
   object-fit: cover;
   border-radius: 6px;
@@ -97,4 +103,29 @@ main {
   text-align: center;
   color: #9fb0cc;
   font-size: 0.9rem;
+}
+
+.link-texto {
+  color: #7cc4ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-texto:hover,
+.link-texto:focus {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .topo h1 {
+    font-size: 1.7rem;
+  }
+
+  .menu {
+    gap: 12px 18px;
+  }
+
+  main {
+    padding-top: 26px;
+  }
 }
