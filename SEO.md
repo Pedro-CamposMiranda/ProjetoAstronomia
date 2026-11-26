@@ -29,7 +29,7 @@ As notas de antes e depois devem ser obtidas no Lighthouse, usando o mesmo dispo
 
 | Métrica | Antes | Depois |
 | --- | --- | --- |
-| SEO | 88 | 100 |
+| SEO | 83 | 100 |
 | Acessibilidade | 100 | 100 |
 
 ## Validação
